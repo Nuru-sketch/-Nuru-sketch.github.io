@@ -1,0 +1,164 @@
+
+
+    @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+body       {
+    background: #F8F8F8;
+    font-family: 'Montserrat', sans-serif;
+    color: #121212;
+    margin: 0;
+    scroll-behavior: smooth;
+    padding-top: 70px;
+            }
+    header  {
+        background-color: #F8F8F8;
+        color:rgba(248, 248, 248, 0.8);
+        text-align:center;
+        padding: 20px;
+        margin-bottom: 20px;
+            }    
+        h1 {
+    color:#121212;
+    }
+        h2 {
+            color: #121212;
+            margin-top: 10px;
+        }
+    main{
+        margin: 3rem;
+        padding-top: 1rem;
+    }
+    nav{
+        list-style: none;
+        padding: 0;
+        margin:0;
+        text-align: center;
+    }
+    nav a{
+        text-decoration: none;
+        color:#121212;
+        padding: 10px;
+        display: inline-block;
+    
+
+         }
+    nav a:hover {
+        background-color:#1E3A8A;
+        color:#FFFFFF;
+        transition: 0.3s ease-in-out;
+    
+         }
+    section {
+        padding: 20px;
+        border:1px solid #ddd;
+        margin-bottom: 20px;
+            }
+        #acerca-de-mi p {
+            text-align: justify;
+
+        }
+        #habilidades ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        #habilidades ul li {
+            display: inline-block;
+            padding: 5px;
+            border: 1px solid #4B4B4B;
+            border-radius: 5px;
+            margin-right: 1px;
+            margin-top: 10px;
+        }
+        #experiencia ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        #experiencia ul li{
+            margin-bottom: 10px;
+            
+        }
+        #experiencia ul li strong{
+            font-weight: bold;
+        }
+        #proyectos ul{
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        
+        }
+        #proyectos ul li{
+            margin-bottom: 10px;
+
+        }
+        #proyectos ul li a {
+            text-decoration: none;
+            color: #3498DB;
+        }
+        #proyectos ul li a:hover {
+            text-decoration: underline;
+        }
+        #contacto form {
+            margin: 0 auto;
+            width: 500px;
+        }
+        #contacto ul{
+            text-align: center;
+        }
+        #contacto ul a{
+            text-decoration: none;
+            color: #121212;
+            padding-right: 10px;
+        }
+        #contacto ul a:hover{
+            color:#FF0033;
+            transition: 0.5 ease-in-out;
+        }
+        #contacto form input,
+        #contacto form textarea{
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border:1px solid #ddd
+        }
+        #contacto from textarea{
+            height: 100px;
+        }
+        #contacto from input[type="submit"]{
+            background-color:#FFF;
+            color: #F1C40F;
+            border: none;
+            cursor: pointer;
+        }
+        ::placeholder{
+            color: #39FF14;
+            font-size: 1rem;
+        }
+        footer p{
+            text-align: center;
+        }
+    .menu-fijo {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        transition: all 0.3s ease-in-out;
+        background-color: #fff;
+        box-shadow: 0 0 5px rgba(0,0,0,0.1);
+                }
+   
+    .animacion-titulo{
+        animation: aparecer 3s ease-in-out;
+
+                    }
+    @keyframes aparecer{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    }
+    
